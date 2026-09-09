@@ -1,0 +1,121 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: #13131a;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(108, 99, 255, 0.3);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+}
+
+.colorBar {
+  height: 4px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.iconWrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  font-size: 1.5rem;
+  transition: transform 0.25s ease;
+}
+
+.card:hover .iconWrap { transform: scale(1.06); }
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e8e8f0;
+  margin-bottom: 12px;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #666688;
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.feature {
+  font-size: 0.87rem;
+  color: #a0a0b8;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.meta {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.metaLabel {
+  font-size: 0.72rem;
+  color: #4a4a68;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.metaValue {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #e8e8f0;
+}
+
+.learnMore {
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: letter-spacing 0.2s ease;
+}
+
+.card:hover .learnMore { letter-spacing: 0.02em; }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr; }
+}

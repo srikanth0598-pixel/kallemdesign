@@ -1,0 +1,239 @@
+.hero {
+  position: relative;
+  padding: 130px clamp(16px, 5vw, 40px) 80px;
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #666688;
+  margin-bottom: 32px;
+  transition: color 0.2s;
+}
+
+.breadcrumb:hover { color: #6c63ff; }
+
+.heroInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 60px;
+  align-items: start;
+}
+
+.iconWrap {
+  width: 68px;
+  height: 68px;
+  border-radius: 18px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.heroDesc {
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  color: #a0a0b8;
+  line-height: 1.75;
+  max-width: 580px;
+  margin-bottom: 32px;
+}
+
+.heroCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* Info card */
+.infoCard {
+  background: #13131a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 100px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoLabel {
+  font-size: 0.82rem;
+  color: #666688;
+  font-weight: 500;
+}
+
+.infoValue {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e8e8f0;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.infoNote {
+  font-size: 0.82rem;
+  color: #666688;
+  line-height: 1.6;
+}
+
+/* Detail grid */
+.detailGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e8e8f0;
+  margin-bottom: 24px;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.93rem;
+  color: #a0a0b8;
+}
+
+.featureCheck {
+  font-size: 0.9rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.techGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.techBadge {
+  padding: 6px 14px;
+  border-radius: 9999px;
+  border: 1px solid;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: #a0a0b8;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.processBox {
+  background: #13131a;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.processTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e8e8f0;
+  margin-bottom: 4px;
+}
+
+.processStep {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stepNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.stepLabel {
+  font-size: 0.87rem;
+  color: #a0a0b8;
+}
+
+/* Other services */
+.otherGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.otherCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  background: #13131a;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.otherCard:hover {
+  border-color: rgba(108, 99, 255, 0.3);
+  background: #1a1a25;
+  transform: translateX(4px);
+}
+
+.otherIcon { font-size: 1.4rem; flex-shrink: 0; }
+.otherTitle { font-size: 0.95rem; font-weight: 600; color: #e8e8f0; margin-bottom: 2px; }
+.otherDesc { font-size: 0.82rem; color: #666688; }
+.otherArrow { margin-left: auto; font-size: 1.1rem; font-weight: 700; flex-shrink: 0; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .heroInner { grid-template-columns: 1fr; }
+  .infoCard { position: static; }
+  .detailGrid { grid-template-columns: 1fr; gap: 40px; }
+}
