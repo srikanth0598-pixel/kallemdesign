@@ -65,18 +65,6 @@ export default function ServicesPage() {
                     ))}
                   </ul>
 
-                  {/* Meta row */}
-                  <div className={styles.meta}>
-                    <div className={styles.metaItem}>
-                      <span className={styles.metaLabel}>From</span>
-                      <span className={styles.metaValue}>{service.price}</span>
-                    </div>
-                    <div className={styles.metaItem}>
-                      <span className={styles.metaLabel}>Delivery</span>
-                      <span className={styles.metaValue}>{service.deliveryTime}</span>
-                    </div>
-                  </div>
-
                   <span className={styles.learnMore} style={{ color: service.color }}>
                     Learn More →
                   </span>

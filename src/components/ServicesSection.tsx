@@ -32,10 +32,6 @@ export default function ServicesSection() {
               </div>
               <h3 className={styles.title}>{service.title}</h3>
               <p className={styles.desc}>{service.description}</p>
-              <div className={styles.meta}>
-                <span className={styles.price}>{service.price}</span>
-                <span className={styles.arrow} style={{ color: service.color }}>→</span>
-              </div>
               <div className={styles.tags}>
                 {service.technologies.slice(0, 3).map((t) => (
                   <span key={t} className={styles.tag}>{t}</span>

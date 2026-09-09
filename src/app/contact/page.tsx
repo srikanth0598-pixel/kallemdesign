@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 };
 
 const contactInfo = [
-  { icon: "📧", label: "Email", value: "hello@kallemdesign.com", href: "mailto:hello@kallemdesign.com" },
-  { icon: "📞", label: "Phone", value: "+91 98765 43210", href: "tel:+919876543210" },
+  { icon: "📧", label: "Email", value: "kallemdesign@gmail.com", href: "mailto:kallemdesign@gmail.com" },
+  { icon: "📞", label: "Phone", value: "+91 9618337160", href: "tel:+919618337160" },
   { icon: "📍", label: "Location", value: "Hyderabad, Telangana, India", href: null },
   { icon: "⏰", label: "Working Hours", value: "Mon–Sat, 9AM – 7PM IST", href: null },
 ];

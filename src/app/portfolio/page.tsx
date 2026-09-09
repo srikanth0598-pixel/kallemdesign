@@ -44,7 +44,13 @@ export default function PortfolioPage() {
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
                 {/* Visual block */}
-                <div className={styles.visual} style={{ background: project.gradient }}>
+                <div
+                  className={styles.visual}
+                  style={{
+                    background: project.gradient,
+                    backgroundImage: `linear-gradient(135deg, rgba(16, 26, 36, 0.12), rgba(16, 26, 36, 0.78)), url(${project.image})`,
+                  }}
+                >
                   <div className={styles.visualEmoji}>{project.emoji}</div>
                   <div className={styles.visualCategory}>{project.category}</div>
                 </div>

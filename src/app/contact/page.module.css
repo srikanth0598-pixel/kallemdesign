@@ -8,7 +8,7 @@
 
 /* Form col */
 .formCard {
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 24px;
   padding: clamp(28px, 4vw, 48px);
@@ -17,13 +17,13 @@
 .formTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 8px;
 }
 
 .formSub {
   font-size: 0.9rem;
-  color: #666688;
+  color: #78908c;
   line-height: 1.65;
   margin-bottom: 32px;
 }
@@ -39,7 +39,7 @@
 
 .infoCard,
 .promiseCard {
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 20px;
   padding: 28px;
@@ -48,7 +48,7 @@
 .sideTitle {
   font-size: 1rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 20px;
 }
 
@@ -81,13 +81,13 @@
 
 .infoValue {
   font-size: 0.9rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-a.infoValue:hover { color: #6c63ff; }
+a.infoValue:hover { color: #e86a4a; }
 
 .promiseCard {
   display: flex;
@@ -97,7 +97,7 @@ a.infoValue:hover { color: #6c63ff; }
 
 .promiseItem {
   font-size: 0.88rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
   line-height: 1.5;
 }
 
@@ -109,7 +109,7 @@ a.infoValue:hover { color: #6c63ff; }
 .faqTitle {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 32px;
 }
 
@@ -120,7 +120,7 @@ a.infoValue:hover { color: #6c63ff; }
 }
 
 .faqItem {
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
   padding: 24px;
@@ -132,13 +132,13 @@ a.infoValue:hover { color: #6c63ff; }
 .faqQ {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 10px;
 }
 
 .faqA {
   font-size: 0.88rem;
-  color: #666688;
+  color: #78908c;
   line-height: 1.65;
 }
 

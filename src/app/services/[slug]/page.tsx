@@ -40,11 +40,6 @@ export default async function ServiceDetailPage({ params }: Props) {
     name: service.title,
     provider: { "@type": "Organization", name: "KallemDesign" },
     description: service.longDescription,
-    offers: {
-      "@type": "Offer",
-      price: service.price,
-      priceCurrency: "INR",
-    },
   };
 
   return (
@@ -84,17 +79,8 @@ export default async function ServiceDetailPage({ params }: Props) {
 
             {/* Info card */}
             <div className={styles.infoCard}>
-              <div className={styles.infoRow}>
-                <span className={styles.infoLabel}>Starting From</span>
-                <span className={styles.infoValue} style={{ color: service.color }}>{service.price}</span>
-              </div>
-              <div className={styles.infoRow}>
-                <span className={styles.infoLabel}>Delivery Time</span>
-                <span className={styles.infoValue}>{service.deliveryTime}</span>
-              </div>
-              <div className={styles.divider} />
               <p className={styles.infoNote}>
-                💬 Every project is custom-quoted. Contact us for an exact estimate.
+                💬 Every project is custom-quoted. Contact us to discuss your requirements.
               </p>
               <Link href="/contact" className="btn btn-primary" style={{ width: "100%", justifyContent: "center" }}>
                 Request a Quote
@@ -151,7 +137,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       </section>
 
       {/* Other services */}
-      <section className="section" style={{ background: "#0d0d14" }}>
+      <section className="section" style={{ background: "#0d1822" }}>
         <div className="container">
           <h2 className={styles.sectionTitle} style={{ marginBottom: "28px" }}>
             Explore Other Services

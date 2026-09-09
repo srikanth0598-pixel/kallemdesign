@@ -69,8 +69,8 @@ export default function Footer() {
             ))}
           </ul>
           <div className={styles.contactInfo}>
-            <p>📧 hello@kallemdesign.com</p>
-            <p>📞 +91 98765 43210</p>
+            <p>📧 kallemdesign@gmail.com</p>
+            <p>📞 +91 9618337160</p>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ export default function Footer() {
       <div className={styles.bottom}>
         <p>© {new Date().getFullYear()} KallemDesign. All rights reserved.</p>
         <p className={styles.bottomRight}>
-          Built with <span style={{ color: "#ff6584" }}>♥</span> in India
+          Built with <span style={{ color: "#f2a65a" }}>♥</span> in India
         </p>
       </div>
     </footer>

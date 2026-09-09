@@ -14,12 +14,12 @@
   display: inline-flex;
   align-items: center;
   font-size: 0.85rem;
-  color: #666688;
+  color: #78908c;
   margin-bottom: 32px;
   transition: color 0.2s;
 }
 
-.breadcrumb:hover { color: #6c63ff; }
+.breadcrumb:hover { color: #e86a4a; }
 
 .heroInner {
   max-width: 1200px;
@@ -50,7 +50,7 @@
 
 .heroDesc {
   font-size: clamp(0.95rem, 1.4vw, 1.05rem);
-  color: #a0a0b8;
+  color: #b2c0bd;
   line-height: 1.75;
   max-width: 580px;
   margin-bottom: 32px;
@@ -64,7 +64,7 @@
 
 /* Info card */
 .infoCard {
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   padding: 28px;
@@ -75,32 +75,9 @@
   top: 100px;
 }
 
-.infoRow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.infoLabel {
-  font-size: 0.82rem;
-  color: #666688;
-  font-weight: 500;
-}
-
-.infoValue {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #e8e8f0;
-}
-
-.divider {
-  height: 1px;
-  background: rgba(255, 255, 255, 0.06);
-}
-
 .infoNote {
   font-size: 0.82rem;
-  color: #666688;
+  color: #78908c;
   line-height: 1.6;
 }
 
@@ -116,7 +93,7 @@
 .sectionTitle {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 24px;
 }
 
@@ -131,7 +108,7 @@
   align-items: flex-start;
   gap: 10px;
   font-size: 0.93rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
 }
 
 .featureCheck {
@@ -154,12 +131,12 @@
   border: 1px solid;
   font-size: 0.83rem;
   font-weight: 600;
-  color: #a0a0b8;
+  color: #b2c0bd;
   background: rgba(255, 255, 255, 0.03);
 }
 
 .processBox {
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 16px;
   padding: 24px;
@@ -171,7 +148,7 @@
 .processTitle {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 4px;
 }
 
@@ -195,7 +172,7 @@
 
 .stepLabel {
   font-size: 0.87rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
 }
 
 /* Other services */
@@ -212,7 +189,7 @@
   align-items: center;
   gap: 16px;
   padding: 18px 22px;
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 14px;
   text-decoration: none;
@@ -222,13 +199,13 @@
 
 .otherCard:hover {
   border-color: rgba(108, 99, 255, 0.3);
-  background: #1a1a25;
+  background: #223642;
   transform: translateX(4px);
 }
 
 .otherIcon { font-size: 1.4rem; flex-shrink: 0; }
-.otherTitle { font-size: 0.95rem; font-weight: 600; color: #e8e8f0; margin-bottom: 2px; }
-.otherDesc { font-size: 0.82rem; color: #666688; }
+.otherTitle { font-size: 0.95rem; font-weight: 600; color: #edf3f0; margin-bottom: 2px; }
+.otherDesc { font-size: 0.82rem; color: #78908c; }
 .otherArrow { margin-left: auto; font-size: 1.1rem; font-weight: 700; flex-shrink: 0; }
 
 /* Responsive */

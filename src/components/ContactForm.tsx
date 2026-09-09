@@ -45,15 +45,15 @@ export default function ContactForm() {
 
   const onSubmit = async (data: FormData) => {
     setStatus("sending");
-    // Simulate async send (replace with your API / Resend call)
-    await new Promise((r) => setTimeout(r, 1400));
     try {
-      // Build a mailto link as fallback
-      const subject = encodeURIComponent(`New enquiry from ${data.name} – ${data.service}`);
-      const body = encodeURIComponent(
-        `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nService: ${data.service}\nBudget: ${data.budget}\n\nMessage:\n${data.message}`
-      );
-      window.location.href = `mailto:hello@kallemdesign.com?subject=${subject}&body=${body}`;
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) throw new Error("Contact form submission failed");
+
       setStatus("success");
       reset();
     } catch {
@@ -68,7 +68,7 @@ export default function ContactForm() {
           <div className={styles.successIcon}>✅</div>
           <h3>Message Sent!</h3>
           <p>
-            Thank you for reaching out. We'll get back to you within 24 hours. Check your email client if prompted.
+            Thank you for reaching out. We&apos;ll get back to you within 24 hours. Check your email client if prompted.
           </p>
           <button className="btn btn-primary" onClick={() => setStatus("idle")}>
             Send Another
@@ -113,7 +113,7 @@ export default function ContactForm() {
               <input
                 id="cf-phone"
                 type="tel"
-                placeholder="+91 98765 43210"
+                placeholder="+91 9618337160"
                 className={styles.input}
                 {...register("phone")}
               />
@@ -169,7 +169,7 @@ export default function ContactForm() {
           {status === "error" && (
             <div className={styles.errorBanner}>
               Something went wrong. Please try emailing us directly at{" "}
-              <a href="mailto:hello@kallemdesign.com">hello@kallemdesign.com</a>
+              <a href="mailto:kallemdesign@gmail.com">kallemdesign@gmail.com</a>
             </div>
           )}
 

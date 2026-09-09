@@ -90,7 +90,7 @@
 
 .sub {
   font-size: clamp(1rem, 1.6vw, 1.18rem);
-  color: #a0a0b8;
+  color: #b2c0bd;
   max-width: 620px;
   margin: 0 auto 36px;
   line-height: 1.75;
@@ -152,7 +152,7 @@
   font-family: "Syne", sans-serif;
   font-size: 2rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #6c63ff, #ff6584);
+  background: linear-gradient(135deg, #e86a4a, #f2a65a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -160,7 +160,7 @@
 
 .statLabel {
   font-size: 0.82rem;
-  color: #666688;
+  color: #78908c;
   font-weight: 500;
 }
 
@@ -183,7 +183,7 @@
   width: 4px;
   height: 8px;
   border-radius: 2px;
-  background: #6c63ff;
+  background: #e86a4a;
   animation: scrollBounce 2s ease infinite;
 }
 

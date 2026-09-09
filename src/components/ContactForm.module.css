@@ -23,7 +23,7 @@
 .label {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #a0a0b8;
+  color: #b2c0bd;
   letter-spacing: 0.02em;
 }
 
@@ -33,7 +33,7 @@
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  color: #e8e8f0;
+  color: #edf3f0;
   font-size: 0.93rem;
   transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   outline: none;
@@ -66,8 +66,8 @@
 }
 
 .select option {
-  background: #1a1a25;
-  color: #e8e8f0;
+  background: #223642;
+  color: #edf3f0;
 }
 
 .textarea {
@@ -79,7 +79,7 @@
 
 .error {
   font-size: 0.78rem;
-  color: #ff6584;
+  color: #f2a65a;
   margin-top: 2px;
 }
 
@@ -89,11 +89,11 @@
   border: 1px solid rgba(255, 101, 132, 0.3);
   border-radius: 10px;
   font-size: 0.88rem;
-  color: #ff6584;
+  color: #f2a65a;
 }
 
 .errorBanner a {
-  color: #ff6584;
+  color: #f2a65a;
   text-decoration: underline;
 }
 
@@ -142,12 +142,12 @@
 
 .success h3 {
   font-size: 1.6rem;
-  color: #e8e8f0;
+  color: #edf3f0;
 }
 
 .success p {
   font-size: 0.95rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
   max-width: 400px;
   line-height: 1.7;
 }

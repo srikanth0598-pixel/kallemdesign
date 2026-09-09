@@ -7,8 +7,6 @@ export interface Service {
   icon: string;
   features: string[];
   technologies: string[];
-  price: string;
-  deliveryTime: string;
   color: string;
 }
 
@@ -32,9 +30,7 @@ export const services: Service[] = [
       "Maintenance & support plans",
     ],
     technologies: ["Next.js", "React", "Node.js", "TypeScript", "PostgreSQL", "AWS / Vercel"],
-    price: "Starting at ₹25,000",
-    deliveryTime: "2–6 weeks",
-    color: "#6C63FF",
+    color: "#E86A4A",
   },
   {
     slug: "mobile-apps",
@@ -55,9 +51,7 @@ export const services: Service[] = [
       "App Store / Play Store submission",
     ],
     technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "Expo"],
-    price: "Starting at ₹50,000",
-    deliveryTime: "6–16 weeks",
-    color: "#FF6584",
+    color: "#F2A65A",
   },
   {
     slug: "web-applications",
@@ -78,9 +72,7 @@ export const services: Service[] = [
       "99.9% uptime SLA",
     ],
     technologies: ["Next.js", "React", "GraphQL", "Redis", "Docker", "Kubernetes"],
-    price: "Starting at ₹75,000",
-    deliveryTime: "8–20 weeks",
-    color: "#43E97B",
+    color: "#62C7A2",
   },
   {
     slug: "wordpress",
@@ -101,9 +93,7 @@ export const services: Service[] = [
       "Content migration",
     ],
     technologies: ["WordPress", "PHP", "WooCommerce", "ACF", "Elementor", "Gutenberg"],
-    price: "Starting at ₹15,000",
-    deliveryTime: "1–4 weeks",
-    color: "#F7971E",
+    color: "#F0B45B",
   },
   {
     slug: "digital-marketing",
@@ -124,9 +114,7 @@ export const services: Service[] = [
       "Competitor analysis",
     ],
     technologies: ["Google Ads", "Meta Ads", "SEMrush", "GA4", "Mailchimp", "HubSpot"],
-    price: "Starting at ₹10,000/month",
-    deliveryTime: "Ongoing",
-    color: "#A18CD1",
+    color: "#74A9A8",
   },
   {
     slug: "content-writing",
@@ -147,9 +135,7 @@ export const services: Service[] = [
       "Technical writing",
     ],
     technologies: ["SEMrush", "Ahrefs", "Grammarly", "SurferSEO", "Jasper", "Canva"],
-    price: "Starting at ₹1,500/article",
-    deliveryTime: "2–5 days per piece",
-    color: "#F953C6",
+    color: "#D98272",
   },
 ];
 

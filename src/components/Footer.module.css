@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  background: #0d0d14;
+  background: #0d1822;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding: 72px clamp(16px, 5vw, 40px) 0;
 }
@@ -28,7 +28,7 @@
   width: 38px;
   height: 38px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #6c63ff, #4834d4);
+  background: linear-gradient(135deg, #e86a4a, #b84736);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,13 +42,13 @@
   font-family: "Syne", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #e8e8f0;
+  color: #edf3f0;
 }
 
-.logoAccent { color: #6c63ff; }
+.logoAccent { color: #e86a4a; }
 
 .tagline {
-  color: #666688;
+  color: #78908c;
   font-size: 0.9rem;
   line-height: 1.7;
   max-width: 300px;
@@ -71,15 +71,15 @@
   justify-content: center;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #a0a0b8;
+  color: #b2c0bd;
   transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
   text-decoration: none;
 }
 
 .socialIcon:hover {
-  background: rgba(108, 99, 255, 0.15);
-  border-color: rgba(108, 99, 255, 0.4);
-  color: #6c63ff;
+  background: rgba(232, 106, 74, 0.15);
+  border-color: rgba(232, 106, 74, 0.4);
+  color: #e86a4a;
   transform: translateY(-2px);
 }
 
@@ -92,7 +92,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 20px;
 }
 
@@ -105,11 +105,11 @@
 
 .colLink {
   font-size: 0.9rem;
-  color: #666688;
+  color: #78908c;
   transition: color 0.2s;
 }
 
-.colLink:hover { color: #6c63ff; }
+.colLink:hover { color: #e86a4a; }
 
 .contactInfo {
   display: flex;
@@ -119,7 +119,7 @@
 
 .contactInfo p {
   font-size: 0.88rem;
-  color: #666688;
+  color: #78908c;
   line-height: 1.5;
 }
 

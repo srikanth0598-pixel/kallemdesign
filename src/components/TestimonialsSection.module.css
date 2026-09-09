@@ -12,7 +12,7 @@
 
 .card {
   padding: 32px;
-  background: #13131a;
+  background: #182631;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 20px;
   display: flex;
@@ -39,7 +39,7 @@
 
 .quote {
   font-size: 0.93rem;
-  color: #a0a0b8;
+  color: #b2c0bd;
   line-height: 1.7;
   flex: 1;
   font-style: italic;
@@ -57,7 +57,7 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #6c63ff, #ff6584);
+  background: linear-gradient(135deg, #e86a4a, #f2a65a);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,13 +70,13 @@
 .name {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #e8e8f0;
+  color: #edf3f0;
   margin-bottom: 2px;
 }
 
 .role {
   font-size: 0.8rem;
-  color: #666688;
+  color: #78908c;
 }
 
 @keyframes fadeInUp {

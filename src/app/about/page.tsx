@@ -17,7 +17,7 @@ const values = [
 ];
 
 const team = [
-  { name: "Kallem Ravi", role: "Founder & CEO", emoji: "👨‍💼", bio: "10+ years in web & mobile development. Passionate about building products that make a difference." },
+  { name: "Kallem Sreekanth", role: "Founder & CEO", emoji: "👨‍💼", bio: "10+ years in web & mobile development. Passionate about building products that make a difference." },
   { name: "Priya Anand", role: "Lead Designer", emoji: "🎨", bio: "UI/UX expert with an eye for beautiful, functional design. Former designer at top tech startups." },
   { name: "Arjun Reddy", role: "Full-Stack Developer", emoji: "💻", bio: "React & Node.js specialist. Built and scaled products serving millions of users." },
   { name: "Sunita Rao", role: "Digital Marketing Head", emoji: "📈", bio: "SEO & growth marketing expert. Has helped 50+ businesses rank on page 1 of Google." },
@@ -62,7 +62,7 @@ export default function AboutPage() {
               <h2 className={styles.storyTitle}>Our Story</h2>
               <div className={styles.storyContent}>
                 <p>
-                  KallemDesign started in 2019 when our founder, Kallem Ravi, noticed that small
+                  KallemDesign started in 2019 when our founder, Kallem Sreekanth, noticed that small
                   and medium businesses were being underserved by the digital agency market.
                   Large agencies were too expensive. Freelancers were inconsistent. There was a
                   clear gap — and we decided to fill it.
